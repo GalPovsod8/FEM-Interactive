@@ -16,16 +16,34 @@
     <div class="container">
         <img src="images/bg-main-desktop.png" alt="bgimg" class="desktop-bg">
         <div class="form-container">
+            <img src="images/bg-card-front.png" alt="card1" class="card1">
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <img src="images/bg-card-back.png" alt="card2" class="card2">
+
+            <img src="images/card-logo.svg" alt="" class="svg">
+
             <form action="">
                 <label for="chn">CARDHOLDER NAME</label>
-                <input type="text">
+                <input type="text" placeholder="e.g. Jane Appleseed">
                 <label for="cn">CARD NUMBER</label>
-                <input type="number">
-                <div class="date">
-                    <label for="date">EXP. DATE(MM/YY)</label>
-                    <input type="date">
-                    <label for="cvc">CVC</label>
-                    <input type="text" placeholder="e.g. 123">
+                <input type="number" placeholder="e.g. 1234 5678 9123 0000">
+                <div class="date-form">
+                    <div class="date-date">
+                        <label for="date">EXP. DATE(MM/YY)</label>
+                        <div class="date-boxes">
+                            <input type="text" class="date-box" placeholder="MM">
+                            <input type="text" class="date-box" placeholder="YY">
+                        </div>
+                    </div>
+                    <div class="cvc">
+                        <label for="cvc" class="cvvc">CVC</label>
+                        <input type="text" placeholder="e.g. 123">
+                    </div>
                 </div>
                 <button>Confirm</button>
             </form>
