@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InteractiveForm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Heebo:wght@200&family=Lato:wght@300&family=Merriweather+Sans:wght@300&family=Open+Sans:wght@300&family=PT+Serif&family=Public+Sans:ital,wght@1,100&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="images/bg-main-desktop.png" alt="bgimg" class="desktop-bg">
+        <div class="form-container">
+            <form action="">
+                <label for="chn">CARDHOLDER NAME</label>
+                <input type="text">
+                <label for="cn">CARD NUMBER</label>
+                <input type="number">
+                <div class="date">
+                    <label for="date">EXP. DATE(MM/YY)</label>
+                    <input type="date">
+                    <label for="cvc">CVC</label>
+                    <input type="text" placeholder="e.g. 123">
+                </div>
+                <button>Confirm</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
